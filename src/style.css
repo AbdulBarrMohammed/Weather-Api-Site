@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+    background-color: #0D121D;
+
+}
+
+/* SIDEBAR */
+.sidebar {
+    background-color: #232B3B;
+    grid-row: 1/4;
+    display: flex;
+    align-items: center;
+    row-gap: 30px;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #232B3B;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+.sidebar-temp {
+    font-size: 64px;
+}
+
+.sidebar-weather, .city-name {
+    font-size: 24px;
+}
+
+.sidebar-img {
+    height: 150px;
+}
+
+form {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+form img {
+    padding-top: 5px;
+    height: 30px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+
+.left-header {
+    display: flex;
+    gap: 20px;
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* Forecast containers */
+.forecast-containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.forecast-containers img {
+    height: 80px;
+
+}
+.today {
+    font-size: 24px;
+}
+.forecast-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #232B3B;
+    row-gap: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+
+}
+
+.highLow-deg {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+/*HIGHLIGHTS CONTIANER */
+.highlights-container p {
+    /*font-size: 24px; */
+    padding-bottom: 20px;
+
+}
+
+.highlights-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.highlights-card {
+    background-color: #232B3B;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.highlights-card img {
+    height: 35px;
+}
+
+.highlight-title {
+    font-size: 18px;
+}
+
+.highlight-num {
+    font-size: 28px;
+}
