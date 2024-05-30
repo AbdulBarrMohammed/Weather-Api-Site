@@ -8,7 +8,9 @@
     <div class="sidebar">
         <form>
             <input type="text" id="city" placeholder="Search City">
-            <img src="img/magnify.svg">
+            <div class="search-btn">
+                <img src="img/magnify.svg">
+            </div>
         </form>
         <img class="sidebar-img" src="img/clouds.png">
         <p class="city-name">Indianapolis</p>
@@ -23,8 +25,8 @@
                 <p>App Redux</p>
             </div>
             <div class="right-header">
-                <button>C</button>
-                <button>F</button>
+                <button class="cel">&deg;C</button>
+                <button class="fah">&deg;F</button>
             </div>
         </header>
         <div class="forecast-containers">
@@ -75,22 +77,22 @@
             <div class="highlights-grid">
                 <div class="highlights-card">
                     <p class="highlight-title">Wind Status</p>
-                    <p class="highlight-num">8mph</p>
+                    <p class="highlight-num" id="card-wind">8mph</p>
                     <img src="img/wind.png">
                 </div>
                 <div class="highlights-card">
                     <p class="highlight-title">Huminity</p>
-                    <p class="highlight-num">80%</p>
+                    <p class="highlight-num" id="card-huminity">80%</p>
                     <img src="img/humid.png">
                 </div>
                 <div class="highlights-card">
                     <p class="highlight-title">Visibility</p>
-                    <p class="highlight-num">10,0 miles</p>
+                    <p class="highlight-num" id="card-visibility">10,0 miles</p>
                     <img src="img/fog.png">
                 </div>
                 <div class="highlights-card">
                     <p class="highlight-title">Air Pressure</p>
-                    <p class="highlight-num">1017 mb</p>
+                    <p class="highlight-num" id="card-pressure">1017 mb</p>
                     <img src="img/breeze.png">
                 </div>
             </div>

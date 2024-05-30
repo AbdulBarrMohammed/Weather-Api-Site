@@ -155,3 +155,18 @@ header {
 .highlight-num {
     font-size: 28px;
 }
+
+/*BUTTONS */
+.cel, .fah {
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 40px;
+
+}
+
+.fah {
+    background-color: #232B3B;
+    color: white;
+}
