@@ -3,6 +3,7 @@ import thunderStorm from './img/thunderstorm.png';
 import partlyCloudy from './img/cloudy.png';
 import cloudy from './img/clouds.png';
 import rain from './img/storm.png';
+import snow from './img/snow.png'
 
 
 function createCard(maxTempC, minTempC, maxTempF, minTempF, day, weather, tempType) {
@@ -40,6 +41,9 @@ function createCard(maxTempC, minTempC, maxTempF, minTempF, day, weather, tempTy
     }
     else if (weather.includes('rain')) {
         weatherPic.src = rain;
+    }
+    else if (weather.includes('snow')) {
+        weatherPic.src = snow;
     }
     else if (weather === 'Cloudy') {
         weatherPic.src = cloudy;

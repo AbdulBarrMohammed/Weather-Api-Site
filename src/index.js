@@ -20,6 +20,7 @@ async function getForecast(input, tempType) {
     const forecastData = await response.json();
     const forecastLst = forecastData.forecast.forecastday;
     forecastContainer.innerHTML = '';
+
     for (let i = 0; i < forecastLst.length; i++) {
         const forecastDay = forecastLst[i].day;
         const maxTempC = forecastDay.maxtemp_c
