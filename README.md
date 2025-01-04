@@ -1,44 +1,33 @@
 # Weather Site
 
-This is a movie search app where the user can type in a movie title in the search bar and wil display a list
-of movies with their poster and movie information
+This is a city weather forecast website that can display past, current and future weather forecast as well as display weather statistics of the current day
 
 ## Functionality 
 
 The following **required** functionality is completed:
 
-* [ ] User enters a movie title in the search bar and presses search
-* [ ] The app will then display a list of movies that start with what the user typed
-* [ ] When the user presses the share button it shares the title and the url
-* [ ] When the user presses the feedback button it composes an email with the title "Feedback"
-* [ ] When the user presses the IMDB link it opens an IMDB link to that certain movie
+* [ ] User can enter different cities in the search bar
+* [ ] User can click between different temperatures between F and C
+* [ ] Users can see weather highlights that include wind status, huminity, visibility and air pressure
 
-The following **extensions** are implemented:
+The following **extensions** and **tools** are implemented:
 
-* Binding
-* Adapter
-* Retrofit
-* Recycler view
-* DiffUtil
-* Glide
-* Api
-* JSON
-* Toolbar
+* RESTful API
+* Webpack
+* Javascript
 
-## Video Walkthrough
+## Layout Images
 
-Here's a walkthrough of implemented user stories:
+Original page
+<img width="1436" alt="Screenshot 2025-01-04 at 2 20 08 PM" src="https://github.com/user-attachments/assets/6a37aaff-567c-4215-9df4-0667de3fc7d1" />
 
-![p8](https://github.com/AbdulBarrMohammed/MovieSearchApp/assets/106573767/897275e4-fbbf-4979-8c5a-0e09483caf39)
+Fahrenheit tab page
+<img width="1440" alt="Screenshot 2025-01-04 at 2 20 16 PM" src="https://github.com/user-attachments/assets/537147ee-54b4-4d21-bcb3-62471104bf4b" />
 
-<img src='walkthrough.gif' title='Video Walkthrough' width='60%' alt='Video Walkthrough' />
-
-GIF created with Licecap (https://www.cockos.com/licecap/).
 
 ## Notes
 
-I faced the challenge of implementing Retrofit and figuring out how to use an interface to get the JSON 
-as well as trying to figure out how to compose an email intent 
+I faced the challenge of implementing RESTful API in gathering and displaying different weather data 
 
  
 
@@ -46,7 +35,7 @@ as well as trying to figure out how to compose an email intent
 
 ## License
 
-    Copyright 2023 Abdul-Barr Mohammed
+    Copyright 2024 Abdul-Barr Mohammed
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
